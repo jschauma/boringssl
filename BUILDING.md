@@ -10,7 +10,7 @@ The standalone CMake build is primarily intended for developers. If embedding
 BoringSSL into another project with a pre-existing build system, see
 [INCORPORATING.md](./INCORPORATING.md).
 
-Unless otherwise noted, build tools must at most five years old, matching
+Unless otherwise noted, build tools must be at most five years old, matching
 [Abseil guidelines](https://abseil.io/about/compatibility). If in doubt, use the
 most recent stable version of each tool.
 
@@ -41,7 +41,7 @@ most recent stable version of each tool.
     Windows too.
 
   * The most recent stable version of [Go](https://golang.org/dl/) is required.
-    Note Go is exempt from the five year support window. If not found by CMake,
+    Note: Go is exempt from the five year support window. If not found by CMake,
     the go executable may be configured explicitly by setting `GO_EXECUTABLE`.
 
   * On x86_64 Linux, the tests have an optional
